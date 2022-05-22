@@ -3,4 +3,7 @@ Udemy: https://ibm-learning.udemy.com/course/js-algorithms-and-data-structures-m
 Youtube Channel: Aditya Verma for DP etc, Apni Kaksha in C++ DSA, take U forward by strivers, </br>
 Sheet: Love Babbaer sheet(450) </br>
 GFG: https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/ </br>
-LinkList types:Singular, Double and Circular
+Learning: https://www.programiz.com/dsa </br>
+LinkList types:Singular, Double and Circular </br>
+
+Array -> String -> LinkedList -> Stack & Queue -> Recursion -> DP -> Trees -> Graph -> Heap -> Trie
