@@ -1,2 +1,3 @@
 # Faang_DSA_My_Notes
-My Notes
+
+LinkList types:Singular, Double and Circular
