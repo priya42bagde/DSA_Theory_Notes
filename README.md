@@ -10,7 +10,7 @@ Array -> String -> LinkedList -> Stack & Queue -> Recursion -> DP -> Trees -> Gr
 
 <b>Algorithm</b>: An algorithm is a set of well-defined instructions to solve a particular problem. It takes a set of input and produces a desired output. For example,An algorithm to add two numbers: Take two number inputs, Add numbers using the + operator, Display the result. Informally, an algorithm is nothing but a mention of steps to solve a problem.  Data structures are used to hold data while algorithms are used to solve the problem using that data.</br>
 
-<b>Data Structures<b>: Data structure is a storage that is used to store and organize data. It is a way of arranging data on a computer so that it can be accessed and updated efficiently. Types of Data Structure: Linear data structure and Non-linear data structure</br>
+<b>Data Structures</b>: Data structure is a storage that is used to store and organize data. It is a way of arranging data on a computer so that it can be accessed and updated efficiently. Types of Data Structure: Linear data structure and Non-linear data structure</br>
 
 <b>Linear data structures</b>: In linear data structures, the elements are arranged in sequence one after the other. Since elements are arranged in particular order, they are easy to implement. However, when the complexity of the program increases, the linear data structures might not be the best choice because of operational complexities. Popular linear data structures are: </br>
 1. Array Data Structure: In an array, elements in memory are arranged in continuous memory. All the elements of an array are of the same type. </br>
