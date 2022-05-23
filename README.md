@@ -6,4 +6,6 @@ GFG: https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-a
 Learning: https://www.programiz.com/dsa </br>
 LinkList types:Singular, Double and Circular </br>
 
-Array -> String -> LinkedList -> Stack & Queue -> Recursion -> DP -> Trees -> Graph -> Heap -> Trie
+Array -> String -> LinkedList -> Stack & Queue -> Recursion -> DP -> Trees -> Graph -> Heap -> Trie </br>
+
+Algorithm: An algorithm is a set of well-defined instructions to solve a particular problem. It takes a set of input and produces a desired output. For example,An algorithm to add two numbers: Take two number inputs, Add numbers using the + operator, Display the result.
