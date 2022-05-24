@@ -80,3 +80,6 @@ Merge Sort,
 Quick Sort,
 Strassen's Matrix multiplication,
 Karatsuba Algorithm </br>
+
+<b>Linked list</b> : It is a linear data structure that includes a series of connected nodes. Here, each node stores the data and the address of the next node. You have to start somewhere, so we give the address of the first node a special name called HEAD. Also, the last node in the linked list can be identified because its next portion points to NULL.The power of a linked list comes from the ability to break the chain and rejoin it. Doing something similar in an array would have required shifting the positions of all the subsequent elements.<br/>
+Linked lists can be of multiple types: singly, doubly, and circular linked list. 
