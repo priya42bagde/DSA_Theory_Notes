@@ -27,4 +27,20 @@ Array -> String -> LinkedList -> Stack & Queue -> Recursion -> DP -> Trees -> Gr
 <b>Omega Notation (Ω-notation)</b>: Omega notation represents the lower bound of the running time of an algorithm. Thus, it provides the best case complexity of an algorithm. </b>
 <b>Theta Notation (Θ-notation)</b>: Theta notation encloses the function from above and below. Since it represents the upper and the lower bound of the running time of an algorithm, it is used for analyzing the average-case complexity of an algorithm. </br>
 
-<b>The master theorem</> is used in calculating the time complexity of recurrence relations (divide and conquer algorithms) in a simple and quick way.
+<b>The master theorem</b> is used in calculating the time complexity of recurrence relations (divide and conquer algorithms) in a simple and quick way. </br>
+<b>Divide and conquer algorithm</b> is a strategy of solving a large problem by breaking the problem into smaller sub-problems, solving the sub-problems, and
+combining them to get the desired output. To use the divide and conquer algorithm, recursion is used. </br>
+
+<b>How Divide and Conquer Algorithms Work?</b> Here are the steps involved: </br>
+Divide: Divide the given problem into sub-problems using recursion. </br>
+Conquer: Solve the smaller sub-problems recursively. If the subproblem is small enough, then solve it directly. </br>
+Combine: Combine the solutions of the sub-problems that are part of the recursive process to solve the actual problem. </br>
+
+<b>Advantages of Divide and Conquer Algorithm </b>: The complexity for the multiplication of two matrices using the naive method is O(n3), whereas using the divide and conquer approach (i.e. Strassen's matrix multiplication) is O(n2.8074). This approach also simplifies other problems, such as the Tower of Hanoi. This approach is suitable for multiprocessing systems. It makes efficient use of memory caches.  </br>
+
+<b>Divide and Conquer Applications</b>:
+Binary Search
+Merge Sort
+Quick Sort
+Strassen's Matrix multiplication
+Karatsuba Algorithm </br>
