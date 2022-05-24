@@ -16,11 +16,22 @@ Array -> String -> LinkedList -> Stack & Queue -> Recursion -> DP -> Trees -> Gr
 1. Array Data Structure: In an array, elements in memory are arranged in continuous memory. All the elements of an array are of the same type. </br>
 2. Stack Data Structure: In stack data structure, elements are stored in the LIFO principle. That is, the last element stored in a stack will be removed first. It works just like a pile of plates where the last plate kept on the pile will be removed first. In a stack, operations can be perform only from one end (top here). Putting an item on top of the stack is called push and removing an item is called pop.</br> 
 
-<b>Basic Operations of Stack</b> Push: Add an element to the top of a stack</br>
+Basic Operations of Stack:- Push: Add an element to the top of a stack</br>
 Pop: Remove an element from the top of a stack</br>
 IsEmpty: Check if the stack is empty</br>
 IsFull: Check if the stack is full</br>
 Peek: Get the value of the top element without removing it</br>
+
+Working of Stack Data Structure:  The operations work as follows:
+A pointer called TOP is used to keep track of the top element in the stack. </br>
+When initializing the stack, we set its value to -1 so that we can check if the stack is empty by comparing TOP == -1. </br>
+On pushing an element, we increase the value of TOP and place the new element in the position pointed to by TOP. </br>
+On popping an element, we return the element pointed to by TOP and reduce its value. </br>
+Before pushing, we check if the stack is already full </br>
+Before popping, we check if the stack is already empty </br>
+
+Stack Time Complexity: For the array-based implementation of a stack, the push and pop operations take constant time, i.e. O(1). </br>
+Application of Stack: Reverse of a word</br>
 
 3. Queue Data Structure: Unlike stack, the queue data structure works in the FIFO principle where first element stored in the queue will be removed first. It works just like a queue of people in the ticket counter where first person on the queue will get the ticket first. In a queue, addition and removal are performed from separate ends.</br>
 4. Linked List Data Structure: In linked list data structure, data elements are connected through a series of nodes. And, each node contains the data items and address to the next node. </br>
