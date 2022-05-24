@@ -25,4 +25,6 @@ Array -> String -> LinkedList -> Stack & Queue -> Recursion -> DP -> Trees -> Gr
 <b>Asymptotic Analysis</b>: The efficiency is measured with the help of asymptotic notations. The efficiency of an algorithm depends on the amount of time, storage and other resources required to execute the algorithm. Asymptotic notations are the mathematical notations used to describe the running time of an algorithm. There are mainly three asymptotic notations: Big-O notation, Omega notation, Theta notation. </b>
 <b>Big-O Notation (O-notation)</b>: Big-O notation represents the upper bound of the running time of an algorithm. Thus, it gives the worst-case complexity of an algorithm. </b>
 <b>Omega Notation (Ω-notation)</b>: Omega notation represents the lower bound of the running time of an algorithm. Thus, it provides the best case complexity of an algorithm. </b>
-<b>Theta Notation (Θ-notation)</b>: Theta notation encloses the function from above and below. Since it represents the upper and the lower bound of the running time of an algorithm, it is used for analyzing the average-case complexity of an algorithm. </b>
+<b>Theta Notation (Θ-notation)</b>: Theta notation encloses the function from above and below. Since it represents the upper and the lower bound of the running time of an algorithm, it is used for analyzing the average-case complexity of an algorithm. </br>
+
+<b>The master theorem</> is used in calculating the time complexity of recurrence relations (divide and conquer algorithms) in a simple and quick way.
