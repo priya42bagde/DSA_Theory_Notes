@@ -33,7 +33,19 @@ Before popping, we check if the stack is already empty </br>
 Stack Time Complexity: For the array-based implementation of a stack, the push and pop operations take constant time, i.e. O(1). </br>
 Application of Stack: Reverse of a word</br>
 
-3. Queue Data Structure: Unlike stack, the queue data structure works in the FIFO principle where first element stored in the queue will be removed first. It works just like a queue of people in the ticket counter where first person on the queue will get the ticket first. In a queue, addition and removal are performed from separate ends.</br>
+3. Queue Data Structure: Unlike stack, the queue data structure works in the FIFO principle where first element stored in the queue will be removed first. It works just like a queue of people in the ticket counter where first person on the queue will get the ticket first. In a queue, addition and removal are performed from separate ends.Putting items in the queue is called enqueue, and removing items from the queue is called dequeue.</br>
+
+Basic Operations of Queue: A queue is an object (an abstract data structure - ADT) that allows the following operations:
+Enqueue: Add an element to the end of the queue <br/>
+Dequeue: Remove an element from the front of the queue <br/>
+IsEmpty: Check if the queue is empty <br/>
+IsFull: Check if the queue is full <br/>
+Peek: Get the value of the front of the queue without removing it <br/>
+
+Limitations of Queue: As you can see in the image below, after a bit of enqueuing and dequeuing, the size of the queue has been reduced. <br/>
+
+Applications of Queue: CPU scheduling, Disk Scheduling, When data is transferred asynchronously between two processes.The queue is used for synchronization. For example: IO Buffers, pipes, file IO, etc. Handling of interrupts in real-time systems. Call Center phone systems use Queues to hold people calling them in order. <br/>
+
 4. Linked List Data Structure: In linked list data structure, data elements are connected through a series of nodes. And, each node contains the data items and address to the next node. </br>
 
 <b>Non linear data structures </b>: Unlike linear data structures, elements in non-linear data structures are not in any sequence. Instead they are arranged in a hierarchical manner where one element will be connected to one or more elements. Non-linear data structures are further divided into graph and tree based data structures. </br>
