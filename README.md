@@ -14,7 +14,14 @@ Array -> String -> LinkedList -> Stack & Queue -> Recursion -> DP -> Trees -> Gr
 
 <b>Linear data structures</b>: In linear data structures, the elements are arranged in sequence one after the other. Since elements are arranged in particular order, they are easy to implement. However, when the complexity of the program increases, the linear data structures might not be the best choice because of operational complexities. Popular linear data structures are: </br>
 1. Array Data Structure: In an array, elements in memory are arranged in continuous memory. All the elements of an array are of the same type. </br>
-2. Stack Data Structure: In stack data structure, elements are stored in the LIFO principle. That is, the last element stored in a stack will be removed first. It works just like a pile of plates where the last plate kept on the pile will be removed first. In a stack, operations can be perform only from one end (top here).</br>
+2. Stack Data Structure: In stack data structure, elements are stored in the LIFO principle. That is, the last element stored in a stack will be removed first. It works just like a pile of plates where the last plate kept on the pile will be removed first. In a stack, operations can be perform only from one end (top here). Putting an item on top of the stack is called push and removing an item is called pop.</br> 
+
+<b>Basic Operations of Stack</b> Push: Add an element to the top of a stack</br>
+Pop: Remove an element from the top of a stack</br>
+IsEmpty: Check if the stack is empty</br>
+IsFull: Check if the stack is full</br>
+Peek: Get the value of the top element without removing it</br>
+
 3. Queue Data Structure: Unlike stack, the queue data structure works in the FIFO principle where first element stored in the queue will be removed first. It works just like a queue of people in the ticket counter where first person on the queue will get the ticket first. In a queue, addition and removal are performed from separate ends.</br>
 4. Linked List Data Structure: In linked list data structure, data elements are connected through a series of nodes. And, each node contains the data items and address to the next node. </br>
 
