@@ -46,6 +46,12 @@ Limitations of Queue: As you can see in the image below, after a bit of enqueuin
 
 Applications of Queue: CPU scheduling, Disk Scheduling, When data is transferred asynchronously between two processes.The queue is used for synchronization. For example: IO Buffers, pipes, file IO, etc. Handling of interrupts in real-time systems. Call Center phone systems use Queues to hold people calling them in order. <br/>
 
+There are four different types of queues:
+Simple Queue
+Circular Queue
+Priority Queue
+Double Ended Queue
+
 4. Linked List Data Structure: In linked list data structure, data elements are connected through a series of nodes. And, each node contains the data items and address to the next node. </br>
 
 <b>Non linear data structures </b>: Unlike linear data structures, elements in non-linear data structures are not in any sequence. Instead they are arranged in a hierarchical manner where one element will be connected to one or more elements. Non-linear data structures are further divided into graph and tree based data structures. </br>
