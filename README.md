@@ -39,8 +39,8 @@ Combine: Combine the solutions of the sub-problems that are part of the recursiv
 <b>Advantages of Divide and Conquer Algorithm </b>: The complexity for the multiplication of two matrices using the naive method is O(n3), whereas using the divide and conquer approach (i.e. Strassen's matrix multiplication) is O(n2.8074). This approach also simplifies other problems, such as the Tower of Hanoi. This approach is suitable for multiprocessing systems. It makes efficient use of memory caches.  </br>
 
 <b>Divide and Conquer Applications</b>:
-Binary Search
-Merge Sort
-Quick Sort
-Strassen's Matrix multiplication
+Binary Search,
+Merge Sort,
+Quick Sort,
+Strassen's Matrix multiplication,
 Karatsuba Algorithm </br>
