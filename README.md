@@ -88,3 +88,20 @@ Dynamic memory allocation,
 Implemented in stack and queue,
 In undo functionality of softwares,
 Hash tables, Graphs <br/>
+
+Here's a list of basic linked list operations that we will cover in this article. <br/>
+Traversal - access each element of the linked list
+Insertion - adds a new element to the linked list
+Deletion - removes the existing elements
+Search - find a node in the linked list
+Sort - sort the nodes of the linked list <br/>
+
+There are three common types of Linked List.
+
+Singly Linked List : It is the most common. Each node has data and a pointer to the next node. <br/>
+Doubly Linked List : We add a pointer to the previous node in a doubly-linked list. Thus, we can go in either direction: forward or backward.<br/>
+Circular Linked List : A circular linked list is a variation of a linked list in which the last element is linked to the first element. This forms a circular loop. A circular linked list can be either singly linked or doubly linked. <br/>
+-->for singly linked list, next pointer of last item points to the first item
+-->In the doubly linked list, prev pointer of the first item points to the last item as well. <br/>
+
+
