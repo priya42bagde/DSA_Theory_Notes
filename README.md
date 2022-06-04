@@ -119,7 +119,16 @@ Value - data that are associated with keys. <br/>
 This type of data structure is also called a binary heap.
 <b>Heapify</b>: Heapify is the process of creating a heap data structure from a binary tree. It is used to create a Min-Heap or a Max-Heap. <br/>
 <b>Peek (Find max/min)</b>: Peek operation returns the maximum element from Max Heap or minimum element from Min Heap without deleting the node. <br/>
-<b>Extract-Max/Min </b>: Extract-Max returns the node with maximum value after removing it from a Max Heap whereas Extract-Min returns the node with minimum after removing it from Min Heap.
-<b>Heap Data Structure Applications </b>
-Heap is used while implementing a priority queue. Dijkstra's Algorithm. Heap Sort <br/>
+<b>Extract-Max/Min </b>: Extract-Max returns the node with maximum value after removing it from a Max Heap whereas Extract-Min returns the node with minimum after removing it from Min Heap. <br/>
+<b>Heap Data Structure Applications </b>: Heap is used while implementing a priority queue. Dijkstra's Algorithm. Heap Sort <br/>
+
+<b>A fibonacci heap</b> is a data structure that consists of a collection of trees which follow min heap or max heap property. min heap and max heap property in the Heap Data Structure article. These two properties are the characteristics of the trees present on a fibonacci heap. In a fibonacci heap, a node can have more than two children or no children at all. Also, it has more efficient heap operations than that supported by the binomial and binary heaps.
+
+The fibonacci heap is called a fibonacci heap because the trees are constructed in a way such that a tree of order n has at least Fn+2 nodes in it, where Fn+2 is the (n + 2)th Fibonacci number. <br/>
+
+<b>Properties of a Fibonacci Heap</b>: Important properties of a Fibonacci heap are:
+It is a set of min heap-ordered trees. (i.e. The parent is always smaller than the children.)
+A pointer is maintained at the minimum element node.
+It consists of a set of marked nodes. (Decrease key operation)
+The trees within a Fibonacci heap are unordered but rooted.
 
