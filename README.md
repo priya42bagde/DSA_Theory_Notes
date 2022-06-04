@@ -104,4 +104,22 @@ Circular Linked List : A circular linked list is a variation of a linked list in
 -->for singly linked list, next pointer of last item points to the first item
 -->In the doubly linked list, prev pointer of the first item points to the last item as well. <br/>
 
+<b>Hash Table</b>: The Hash table data structure stores elements in key-value pairs where
+Key- unique integer that is used for indexing the values and 
+Value - data that are associated with keys. <br/>
+<b> Hashing </b>:In a hash table, a new index is processed using the keys. And, the element corresponding to that key is stored in the index. This process is called hashing. <br/>
+
+<b>Hash Collision</b>: When the hash function generates the same index for multiple keys, there will be a conflict (what value to be stored in that index). This is called a hash collision. We can resolve the hash collision using one of the following techniques.
+1. Collision resolution by chaining
+2. Open Addressing: Linear/Quadratic Probing and Double Hashing <br/>
+
+<b>Heap data structure</b> is a complete binary tree that satisfies the heap property, where any given node is
+--always greater than its child node/s and the key of the root node is the largest among all other nodes. This property is also called max heap property.
+--always smaller than the child node/s and the key of the root node is the smallest among all other nodes. This property is also called min heap property.
+This type of data structure is also called a binary heap.
+<b>Heapify</b>: Heapify is the process of creating a heap data structure from a binary tree. It is used to create a Min-Heap or a Max-Heap. <br/>
+<b>Peek (Find max/min)</b>: Peek operation returns the maximum element from Max Heap or minimum element from Min Heap without deleting the node. <br/>
+<b>Extract-Max/Min </b>: Extract-Max returns the node with maximum value after removing it from a Max Heap whereas Extract-Min returns the node with minimum after removing it from Min Heap.
+<b>Heap Data Structure Applications </b>
+Heap is used while implementing a priority queue. Dijkstra's Algorithm. Heap Sort <br/>
 
