@@ -153,7 +153,25 @@ Different tree data structures allow quicker and easier access to the data as it
 
 <b>Degree of a Node </b>: The degree of a node is the total number of branches of that node.
 
-<b>Forest</b>: A collection of disjoint trees is called a forest.
+<b>Forest</b>: A collection of disjoint trees is called a forest. You can create a forest by cutting the root of a tree. <br/>
+
+<b>Types of Tree</b>: 
+Binary Tree,
+Binary Search Tree,
+AVL Tree,
+B-Tree
+
+<b>Tree Traversal</b>: In order to perform any operation on a tree, you need to reach to the specific node. The tree traversal algorithm helps in visiting a required node in the tree.
+
+
+<b>Tree Applications</b>:
+Binary Search Trees(BSTs) are used to quickly check whether an element is present in a set or not.
+Heap is a kind of tree that is used for heap sort.
+A modified version of a tree called Tries is used in modern routers to store routing information.
+Most popular databases use B-Trees and T-Trees, which are variants of the tree structure we learned above to store their data
+Compilers use a syntax tree to validate the syntax of every program you write.
+
+
 
 
 
