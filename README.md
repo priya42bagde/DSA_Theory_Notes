@@ -130,5 +130,30 @@ The fibonacci heap is called a fibonacci heap because the trees are constructed 
 It is a set of min heap-ordered trees. (i.e. The parent is always smaller than the children.)
 A pointer is maintained at the minimum element node.
 It consists of a set of marked nodes. (Decrease key operation)
-The trees within a Fibonacci heap are unordered but rooted.
+The trees within a Fibonacci heap are unordered but rooted. <br/>
+
+<b>Tree</b> : A tree is a nonlinear hierarchical data structure that consists of nodes connected by edges. <br/>
+<b>Why Tree Data Structure?</b>
+Other data structures such as arrays, linked list, stack, and queue are linear data structures that store data sequentially. In order to perform any operation in a linear data structure, the time complexity increases with the increase in the data size. But, it is not acceptable in today's computational world.
+
+Different tree data structures allow quicker and easier access to the data as it is a non-linear data structure. <br/>
+
+<b>Tree Terminologies</b> <br/>
+<b>Node</b>:A node is an entity that contains a key or value and pointers to its child nodes.The last nodes of each path are called leaf nodes or external nodes that do not contain a link/pointer to child nodes. The node having at least a child node is called an internal node.
+
+<b>Edge</b>: It is the link between any two nodes.
+
+<b>Root </b>: It is the topmost node of a tree.
+
+<b>Height of a Node </b>: The height of a node is the number of edges from the node to the deepest leaf (ie. the longest path from the node to a leaf node).
+
+<b>Depth of a Node </b> : The depth of a node is the number of edges from the root to the node.
+
+<b>Height of a Tree </b>: The height of a Tree is the height of the root node or the depth of the deepest node.
+
+<b>Degree of a Node </b>: The degree of a node is the total number of branches of that node.
+
+<b>Forest</b>: A collection of disjoint trees is called a forest.
+
+
 
