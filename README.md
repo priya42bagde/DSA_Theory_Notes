@@ -171,7 +171,67 @@ A modified version of a tree called Tries is used in modern routers to store rou
 Most popular databases use B-Trees and T-Trees, which are variants of the tree structure we learned above to store their data
 Compilers use a syntax tree to validate the syntax of every program you write.
 
+<b>Tree Traversal - inorder, preorder and postorder<b>: Traversing a tree means visiting every node in the tree. You might, for instance, want to add all the values in the tree or find the largest one. For all these operations, you will need to visit each node of the tree. Linear data structures like arrays, stacks, queues, and linked list have only one way to read the data. But a hierarchical data structure like a tree can be traversed in different ways. <br/>
+  
+Inorder traversal: First, visit all the nodes in the left subtree, Then the root node, Visit all the nodes in the right subtree <br/>
+Preorder traversal Visit root node, Visit all the nodes in the left subtre, Visit all the nodes in the right subtree <br/>
+Postorder traversal : Visit all the nodes in the left subtree, Visit all the nodes in the right subtree, Visit the root node <br/>
 
+<b> Binary Tree</b>: A binary tree is a tree data structure in which each parent node can have at most two children. Each node of a binary tree consists of three items: data item, address of left child and address of right child.
+  
+<b>Binary Tree Applications</b>: For easy and quick access to data, In router algorithms, To implement heap data structure and Syntax tree <br/>
+  
+<b> Types of Binary Tree</b>: <br/>
+1. Full Binary Tree: A full Binary tree is a special type of binary tree in which every parent node/internal node has either two or no children. It is also known as a proper binary tree. <br/>
+2. Perfect Binary Tree: A perfect binary tree is a type of binary tree in which every internal node has exactly two child nodes and all the leaf nodes are at the same level. <br/>
+3. Complete Binary Tree : A complete binary tree is just like a full binary tree, but with two major differences are Every level must be completely filled, All the leaf elements must lean towards the left, The last leaf element might not have a right sibling i.e. a complete binary tree doesn't have to be a full binary tree. <br/>
+4. Degenerate or Pathological Tree: A degenerate or pathological tree is the tree having a single child either left or right. <br/>
+5. Skewed Binary Tree: A skewed binary tree is a pathological/degenerate tree in which the tree is either dominated by the left nodes or the right nodes. Thus, there are two types of skewed binary tree: left-skewed binary tree and right-skewed binary tree. <br/>
+6. Balanced Binary Tree:  It is a type of binary tree in which the difference between the height of the left and the right subtree for each node is either 0 or 1. A balanced binary tree, also referred to as a height-balanced binary tree, is defined as a binary tree in which the height of the left and right subtree of any node differ by not more than 1.
+
+To learn more about the height of a tree/node, visit Tree Data Structure.Following are the conditions for a height-balanced binary tree:
+
+difference between the left and the right subtree for any node is not more than one
+the left subtree is balanced
+the right subtree is balanced <br/>
+  
+<b>Binary Search Tree(BST) </b>: Binary search tree is a data structure that quickly allows us to maintain a sorted list of numbers.
+
+It is called a binary tree because each tree node has a maximum of two children.
+It is called a search tree because it can be used to search for the presence of a number in O(log(n)) time. <br/>
+The properties that separate a binary search tree from a regular binary tree is
+
+All nodes of left subtree are less than the root node
+All nodes of right subtree are more than the root node
+Both subtrees of each node are also BSTs i.e. they have the above two properties <br/>
+  
+There are two basic operations that you can perform on a binary search tree: <br/>
+Search Operation:The algorithm depends on the property of BST that if each left subtree has values below root and each right subtree has values above the root.
+If the value is below the root, we can say for sure that the value is not in the right subtree; we need to only search in the left subtree and if the value is above the root, we can say for sure that the value is not in the left subtree; we need to only search in the right subtree. <br/>
+  
+Insert Operation : Inserting a value in the correct position is similar to searching because we try to maintain the rule that the left subtree is lesser than root and the right subtree is larger than root.We keep going to either right subtree or left subtree depending on the value and when we reach a point left or right subtree is null, we put the new node there. <br/>
+  
+Deletion Operation: There are three cases for deleting a node from a binary search tree.
+
+Case I: In the first case, the node to be deleted is the leaf node. In such a case, simply delete the node from the tree. <br/>
+Case II: In the second case, the node to be deleted lies has a single child node. In such a case follow the steps below:
+Replace that node with its child node.
+Remove the child node from its original position. <br/>
+Case III: In the third case, the node to be deleted has two children. In such a case follow the steps below:
+Get the inorder successor of that node.
+Replace the node with the inorder successor.
+Remove the inorder successor from its original position. <br/>
+  
+Binary Search Tree Applications <br/>
+In multilevel indexing in the database
+For dynamic sorting
+For managing virtual memory areas in Unix kernel <br/>
+  
+
+  
+
+
+  
 
 
 
