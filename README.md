@@ -6,6 +6,11 @@ GFG: https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-a
 Learning: https://www.programiz.com/dsa </br>
 LinkList types:Singular, Double and Circular </br>
 
+Time Complexity: Relation between input size and running time(operations).
+means how much time a code run(depend on number of execution) in worst, average and best cases which is based on the input length, it doesn't means how much time system taking to execute a code.
+
+
+------
 Array -> String -> LinkedList -> Stack & Queue -> Recursion -> DP -> Trees -> Graph -> Heap -> Trie </br>
 
 <b>Algorithm</b>: An algorithm is a set of well-defined instructions to solve a particular problem. It takes a set of input and produces a desired output. For example,An algorithm to add two numbers: Take two number inputs, Add numbers using the + operator, Display the result. Informally, an algorithm is nothing but a mention of steps to solve a problem.  Data structures are used to hold data while algorithms are used to solve the problem using that data.</br>
