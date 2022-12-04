@@ -10,6 +10,31 @@ Time Complexity: Relation between input size and running time(operations).
 means how much time a code run(depend on number of execution) in worst, average and best cases which is based on the input length, it doesn't means how much time system taking to execute a code.
 
 
+Bubble- adjacent comparision
+Insertion - unsorted value insert in sorted
+selection- find lowest n move left
+merge- divide and conquer, divide in 2 half
+Shell- based on insertion, divide n swap
+Quik Sortinh-2 partition, pivot value
+Heap sort- similar to selection sort
+Bucket- distributes in nu,ber of buckets
+Radix- Least to most significant digit
+
+
+sorting, linkedlist, binary tress
+dfs and bfs traversal of graph
+linkedin flaten
+striver sde sheet download
+
+design pattern
+responsive grid system
+viewport
+Tree shaking
+atomic design pattern
+
+https://amazon.jobs/en/landing_pages/software-development-topics
+ 
+
 ------
 Array -> String -> LinkedList -> Stack & Queue -> Recursion -> DP -> Trees -> Graph -> Heap -> Trie </br>
 
